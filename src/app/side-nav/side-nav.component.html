@@ -1,0 +1,34 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3">
+      <h3><a href="/home">Ruby Brunton</a></h3>
+      <h6>
+        <a href="/writer">Writer</a><br>
+        <a href="/editor">Editor</a><br>
+        <a href="/poet">Poet</a><br>
+        <a href="/performer">Performer</a><br>
+        <a href="/about">About</a><br>
+        <a href="/resume">Resume</a><br>
+        <a href="/contact">Contact</a><br>
+      </h6>
+    </div>
+    <div class="col-9">
+      <p *ngIf="home">content</p>
+      <app-writer *ngIf="writer"></app-writer>
+      <app-editor *ngIf="editor"></app-editor>
+      <app-poet *ngIf="poet"></app-poet>
+      <app-performer *ngIf="performer"></app-performer>
+      <app-about *ngIf="about"></app-about>
+      <app-resume *ngIf="resume"></app-resume>
+      <app-contact *ngIf="contact"></app-contact>
+      <app-page-not-found *ngIf="notFound"></app-page-not-found>
+    </div>
+  </div>
+  <!--
+    <div class="starter-template">
+
+        <h1>{{title}}</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+    </div>
+  -->
+</div>
