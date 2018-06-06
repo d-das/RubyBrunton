@@ -1,19 +1,26 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-3">
-      <h3><a href="/home">Ruby Brunton</a></h3>
+    <div class="col-2 navBar">
+      <br>
+      <h1><a href="/home" class="internal">Ruby Brunton</a></h1>
       <h6>
-        <a href="/writer">Writer</a><br>
-        <a href="/editor">Editor</a><br>
-        <a href="/poet">Poet</a><br>
-        <a href="/performer">Performer</a><br>
-        <a href="/about">About</a><br>
-        <a href="/resume">Resume</a><br>
-        <a href="/contact">Contact</a><br>
+        <br>
+        <a href="/writer" class="internal">Writer</a><br><br>
+        <a href="/editor" class="internal">Editor</a><br><br>
+        <a href="/poet" class="internal">Poet</a><br><br>
+        <a href="/performer" class="internal">Performer</a><br><br>
+        <a href="/about" class="internal">About</a><br><br>
+        <a href="/resume" class="internal">Resume</a><br><br>
+        <a href="/contact" class="internal">Contact</a><br><br>
       </h6>
     </div>
-    <div class="col-9">
-      <p *ngIf="home">content</p>
+    <div class="col-10 main">
+      <div *ngIf="home">
+        <div class="img-responsive">
+          <img src="../assets/images/portrait-wall.png" style="width:75%;" class="mx-auto d-block">
+        </div>
+
+      </div>
       <app-writer *ngIf="writer"></app-writer>
       <app-editor *ngIf="editor"></app-editor>
       <app-poet *ngIf="poet"></app-poet>

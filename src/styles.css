@@ -1,2 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+@import url('https://fonts.googleapis.com/css?family=Neuton');
+
+
+
+h1{
+	font-family: "Cuprum";
+	font-size: 40px;
+}
+h6{
+	font-family:"Neuton";
+}
+p{
+	font-family: "Neuton";
+
+}
+
+
+
+.navBar{
+	height: %100;
+	background-color: #3E606F;
+  margin-bottom: -100%;
+}
+
+a.internal:link{color:black}
+a.internal:visited{color:black}
+
+.main{
+	background-color: #FCFFF5;
+	margin-top: 5%;
+	margin-bottom: -100%;
+}
+
+/*
+
+Neutral Blue:
+$base-1: #FCFFF5;
+$base-2: #D1DBBD;
+$base-3: #91AA9D;
+$base-4: #3E606F;
+$base-5: #193441;
+
+officSpace
+  --base-1: #D2AE92;
+  --base-2: #EBEFF2;
+  --base-3: #282F3F;
+  --base-4: #A38F8F;
+	--base-5: #8C786C;
+}
+:root{
+	//officSpace
+  --base-1: #D2AE92;
+  --base-2: #EBEFF2;
+  --base-3: #282F3F;
+  --base-4: #A38F8F;
+	--base-5: #8C786C;
+}
+:root{
+	//officSpace
+  --base-1: #D2AE92;
+  --base-2: #EBEFF2;
+  --base-3: #282F3F;
+  --base-4: #A38F8F;
+	--base-5: #8C786C;
+}
+:root{
+	//officSpace
+  --base-1: #D2AE92;
+  --base-2: #EBEFF2;
+  --base-3: #282F3F;
+  --base-4: #A38F8F;
+	--base-5: #8C786C;
+}
+*/
