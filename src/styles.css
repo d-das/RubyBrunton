@@ -4,39 +4,81 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 @import url('https://fonts.googleapis.com/css?family=Arapey');
 @import url('https://fonts.googleapis.com/css?family=Neuton');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Antic+Didone');
 
 
 
 h1{
-	font-family: "Cuprum";
+	font-family: "Antic Didone";
 	font-size: 40px;
 }
+h5{
+	font-family: "Antic Didone";
+}
 h6{
-	font-family:"Neuton";
+	font-family:"Antic Didone";
 }
 p{
-	font-family: "Neuton";
+	font-family: "Alegreya Sans";
 
 }
 
+/*body {background-color: #FCFFF5;}*/
 
-
+html, body { height: 100%}
+.container{
+	min-height: 100%;
+	overflow: hidden;
+}
 .navBar{
-	height: %100;
-	background-color: #3E606F;
-  margin-bottom: -100%;
+	height: 9999px;
+	background-color: #f6efee;
 }
 
-a.internal:link{color:black}
-a.internal:visited{color:black}
+.bgimg {
+	background:url('assets/images/library.jpeg') no-repeat center;
+	background-size:100% auto;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+a:link{color: #B95442;}
+a:visited{
+	color: #B95442;
+	text-decoration-line: underline;
+	text-decoration-color: #B95442;
+}
+a.internal:link{color:black;}
+a.internal:visited{color:black;}
+a.internal:hover{text-decoration-color: #B95442;}
+a.selected:link{
+	color:black;
+	text-decoration-line: underline;
+	text-decoration-color: #B95442;
+}
+a.selected:visited{
+	color:black;
+	text-decoration-line: underline;
+	text-decoration-color: #B95442;
+}
 
 .main{
-	background-color: #FCFFF5;
-	margin-top: 5%;
-	margin-bottom: -100%;
+	/*background-color: #FCFFF5;*/
+	margin-top: 2%;
+	/*margin-bottom: -100%;*/
+	overflow:hidden;
 }
 
+
+
 /*
+Reds:
+lighter roof:C87266
+darker roof:B95442
+
+almost white: FBEBEE
+pink white: #D4AFAE
 
 Neutral Blue:
 $base-1: #FCFFF5;

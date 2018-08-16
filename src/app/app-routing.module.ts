@@ -4,6 +4,8 @@ import { AppComponent } from './app.component'
 import { SideNavComponent } from './side-nav/side-nav.component';
 
 const routes: Routes = [
+  { path: '', component: SideNavComponent, data: {toggleTo: 'home'}},
+  { path: 'home', component: SideNavComponent, data: {toggleTo: 'home'}},
   { path: 'contact', component: SideNavComponent, data: {toggleTo : 'contact'}},
   { path: 'editor', component: SideNavComponent, data: {toggleTo : 'editor'}},
   { path: 'performer', component: SideNavComponent, data: {toggleTo : 'performer'}},
@@ -11,7 +13,6 @@ const routes: Routes = [
   { path: 'resume', component: SideNavComponent, data: {toggleTo : 'resume'}},
   { path: 'writer', component: SideNavComponent, data: {toggleTo : 'writer'}},
   { path: 'about', component: SideNavComponent, data: {toggleTo: 'about'}},
-  { path: 'home', component: SideNavComponent, data: {toggleTo: 'home'}},
   { path: '**', component: SideNavComponent, data: {toggleTo: 'notFound'}},
 ]
 
